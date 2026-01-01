@@ -1,7 +1,7 @@
 let angle = 0;
 
-setInterval(() => {
+setInterval(function () {
   angle += 10;
-  document.querySelector("#smiley img").style.transform =
+  document.getElementById("smiley").style.transform =
     "rotate(" + angle + "deg)";
 }, 200);
