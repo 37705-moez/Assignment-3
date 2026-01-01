@@ -4,12 +4,7 @@ body {
 }
 
 #smiley {
-  display: inline-block;
-  margin: 20px;
-}
-
-#smiley img {
   width: 120px;
-  height: 120px;
-  transition: transform 0.5s ease;
+  margin-top: 20px;
+  transition: transform 0.5s linear;
 }
